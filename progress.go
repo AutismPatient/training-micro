@@ -28,7 +28,7 @@ func progress(ch chan int64) {
 
 var ch = make(chan int64)
 
-func main() {
+func main2() {
 
 	f, err := os.Open("./LICENSE")
 	if err != nil {
